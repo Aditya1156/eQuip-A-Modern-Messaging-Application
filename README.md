@@ -114,4 +114,4 @@ We welcome contributions to the e-quip project! To contribute:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Shreya-Sawarn/eQuip-A-Modern-Messaging-Application/blob/main/License.txt) file for details.
