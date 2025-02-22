@@ -38,7 +38,7 @@ To install and set up e-quip on your device, follow these steps:
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/e-quip.git
+    git clone https://github.com/Aditya-1156/e-quip.git
     cd e-quip
     ```
 
@@ -75,6 +75,10 @@ To install and set up e-quip on your device, follow these steps:
 3. **Edit Profile**:
     - Once logged in, navigate to the "Profile" section.
     - Update your personal information and preferences.
+
+4. **Chatting**:
+    - Chat with your friends and family.
+    - Create groups for community discussions.
 
 ## Testing
 
