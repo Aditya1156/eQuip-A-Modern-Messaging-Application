@@ -1,1 +1,2 @@
-we have just made our signup and login screen.
+# eQuip-A-Modern-Messaging-Application
+Android Application
