@@ -1,132 +1,93 @@
-# eQuip-A-Modern-Messaging-Application
-Android Application
-e-quip: A Modern Messaging Application
-Table of Contents
-Description
+# Standard Readme(e-quip messaging app) 
 
-Features
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/Aditya1156/eQuip-A-Modern-Messaging-Application)
 
-Installation
 
-Usage
 
-Testing
 
-Contributing
+## Table of Contents
 
-License
+- [Description](#description)
+- [Install](#install)
+- [Usage](#usage)
+- [Generator](#generator)
+- [Badge](#badge)
+- [Example Readmes](#example-readmes)
+- [Related Efforts](#related-efforts)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
 
-Description
-e-quip is a modern messaging application that provides users with seamless communication. The app features login and signup functionality, as well as options to edit user profiles.
+## Description
 
-Features
-Login and Signup: Secure authentication for users.
+Welcome to e-quip, the ultimate messaging application designed to transform the way you connect and communicate. Whether you're catching up with friends, collaborating with colleagues, or simply staying in touch with loved ones, e-quip offers a seamless and intuitive experience.Getting started with e-quip is a breeze. Our secure and user-friendly authentication system ensures that you can quickly create an account or log in, so you can focus on what truly matters - your conversations.
+Say more with e-quip!
 
-Edit Profile: Users can update their personal information and preferences.
+> Make your profile truly yours with e-quip's customizable profile feature. Update your personal information, add a profile picture, and set your preferences to reflect your unique personality.e-quip is designed to integrate smoothly with your device's native features, ensuring a consistent and hassle-free user experience.
 
-Installation
-To install and set up e-quip on your device, follow these steps:
+> Enjoy instant and reliable messaging with e-quip's real-time chat capabilities. Send texts, images, and emojis, and experience conversations that flow naturally.
+e-quip isn't just another messaging app; it's a comprehensive communication solution tailored to meet the needs of today's fast-paced world. With a focus on security, usability, and customization, e-quip provides a platform where users can connect and communicate effortlessly.
 
-For Android Devices
-Download the APK:
+Join the e-quip community today and experience a new standard in messaging.
 
-Download the e-quip APK.
+## Install
 
-Allow Installation from Unknown Sources:
+This project uses [java](https://www.java.com/en/) and [firebase](https://firebase.google.com/). For Android users, we offer a straightforward APK installation process. The app will soon be available on major app stores, making it even more accessible to everyone.
 
-Go to your device's Settings.
+```sh
+$ npm install --global standard-readme-spec
+```
 
-Navigate to Security.
+## Usage
 
-Enable "Unknown sources" to allow installation of apps from sources other than the Play Store.
+This is only a documentation package. You can print out [spec.md](spec.md) to your console:
 
-Install the APK:
+```sh
+$ standard-readme-spec
+# Prints out the standard-readme spec
+```
 
-Locate the downloaded APK file on your device.
+### Generator
 
-Tap on the APK file to start the installation.
+To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
 
-Follow the on-screen instructions to complete the installation.
+## Badge
 
-For iOS Devices
-(Currently not available)
+If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
 
-For Development Environment
-Clone the Repository:
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-bash
-git clone https://github.com/your-username/e-quip.git
-cd e-quip
-Install Dependencies:
+To add in Markdown format, use this code:
 
-bash
-npm install
-Set Up Environment Variables:
+```
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+```
 
-Create a .env file in the root directory.
+## Example Readmes
 
-Add the following environment variables to the .env file:
+To see how the specification has been applied, see the [example-readmes](example-readmes/).
 
-plaintext
-REACT_APP_API_URL=your_api_url
-REACT_APP_API_KEY=your_api_key
-Run the Application:
+## Related Efforts
 
-bash
-npm start
-Usage
-Register an Account:
+- [Art of Readme](https://github.com/noffle/art-of-readme) - 💌 Learn the art of writing quality READMEs.
+- [open-source-template](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
 
-Open the e-quip app.
+## Maintainers
 
-Click on the "Signup" button.
+[@RichardLitt](https://github.com/RichardLitt).
 
-Fill in the required information and create your account.
+## Contributing
 
-Login:
+Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
 
-Open the e-quip app.
+Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
 
-Click on the "Login" button.
+### Contributors
 
-Enter your credentials and log in to your account.
+This project exists thanks to all the people who contribute. 
+<a href="https://github.com/RichardLitt/standard-readme/graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
 
-Edit Profile:
 
-Once logged in, navigate to the "Profile" section.
+## License
 
-Update your personal information and preferences.
-
-Testing
-To run tests for the application, follow these steps:
-
-Run Unit Tests:
-
-bash
-npm test
-Run End-to-End Tests:
-
-bash
-npm run e2e
-Contributing
-We welcome contributions to the e-quip project! To contribute:
-
-Fork the Repository.
-
-Create a New Branch:
-
-bash
-git checkout -b your-feature-branch
-Make Your Changes.
-
-Commit and Push Your Changes:
-
-bash
-git add .
-git commit -m "Add new feature"
-git push origin your-feature-branch
-Create a Pull Request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+[MIT](LICENSE) © Richard Littauer
