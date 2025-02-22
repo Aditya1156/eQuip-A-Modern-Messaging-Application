@@ -27,30 +27,13 @@
         android:gravity="center"
         android:text="Login"
         android:textColor="@color/black"
-        android:textSize="@dimen/_62sdp"
+        android:textSize="@dimen/_25sdp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.415" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="310dp"
-        android:layout_height="41dp"
-        android:fontFamily="@font/poppins_regular"
-        android:gravity="center"
-        android:text="Sign in to continue."
-        android:textColor="@color/black"
-        android:textSize="@dimen/_14sdp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.514" />
+        app:layout_constraintVertical_bias="0.539" />
 
     <TextView
         android:id="@+id/textView7"
@@ -135,20 +118,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.916" />
 
+
     <TextView
         android:id="@+id/textView9"
         android:layout_width="152dp"
         android:layout_height="24dp"
         android:gravity="center"
-        android:text="Need an account?"
+        android:text="Create an account ?"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintHorizontal_bias="0.405"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954" />
-
+        app:layout_constraintVertical_bias="0.977" />
 
     <TextView
         android:id="@+id/logsignup"
@@ -160,8 +143,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988" />
+        app:layout_constraintVertical_bias="0.977" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
