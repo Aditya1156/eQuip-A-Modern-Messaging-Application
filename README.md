@@ -22,7 +22,7 @@ To install and set up e-quip on your device, follow these steps:
 ### For Android Devices
 
 1. **Download the APK**:
-    - [Download the e-quip APK](link-to-your-apk).
+    - [Download the e-quip APK](https://github.com/Shreya-Sawarn/eQuip-A-Modern-Messaging-Application/blob/main/app-debug.apk).
 
 2. **Allow Installation from Unknown Sources**:
     - Go to your device's Settings.
