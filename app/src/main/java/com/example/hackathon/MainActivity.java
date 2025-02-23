@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
        // getSupportActionBar().hide();
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         database=FirebaseDatabase.getInstance();
         auth = FirebaseAuth.getInstance();

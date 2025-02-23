@@ -14,6 +14,15 @@
         android:theme="@style/Theme.AppCompat"
         tools:targetApi="34">
         <activity
+            android:name=".splash3"
+            android:exported="false" />
+        <activity
+            android:name=".splash2"
+            android:exported="false" />
+        <activity
+            android:name=".splash1"
+            android:exported="false" />
+        <activity
             android:name=".chatwindo"
             android:exported="false" />
         <activity

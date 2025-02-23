@@ -16,12 +16,15 @@ public class splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         // EdgeToEdge.enable(this);
         setContentView(R.layout.activity_splash);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         // Use a new Handler to delay the transition to MainActivity
         new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(splash.this,login.class);
+                Intent intent = new Intent(splash.this,splash1.class);
                 startActivity(intent);
                 finish();
             }

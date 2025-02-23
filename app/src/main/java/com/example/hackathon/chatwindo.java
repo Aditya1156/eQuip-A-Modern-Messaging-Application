@@ -47,6 +47,9 @@ public class chatwindo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chatwindo);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
        // getSupportActionBar().hide();
         database = FirebaseDatabase.getInstance();
         firebaseAuth = FirebaseAuth.getInstance();
